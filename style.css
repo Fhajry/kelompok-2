@@ -1,0 +1,110 @@
+body,
+h1,
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #036dd6, #c21dd8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: ;
+}
+
+.container {
+    background:rgba(255, 255, 255, 0.25);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 8px rgba(46, 42, 42, 0.8);
+    width: 100%;
+    max-width: 600px;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    /* border: 0 solid #000000; */
+    border-radius: 6px;
+    font-size: 16px;
+    color: #fff;
+    transition: border-color 0.3s;
+    background:rgba(255, 255, 255, 0.1);
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color:rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0d70cc;
+}
+
+.copy {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: right;
+}
+
